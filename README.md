@@ -23,3 +23,5 @@ So when getting the coords from a script, it will show you a vector3, you just c
 ### MinZ & MaxZ
 
 The **MinZ** and **MaxZ** that are included on the configuration when creating a zone, it means that it requires the Minimum Z position (lower point) and Maximum Z position (highest point) of a zone. 
+
+To understand better, its like a building, you define the lowest point of the building like a point underneath the player and then the highest point of this building. This is how a zone works, you define the MinZ and MaxZ of the whole zone. You can also use the **Debug** to true to display into you the shape of the created zone and the height. 
